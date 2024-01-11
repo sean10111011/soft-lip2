@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(206, 206, 206);
+    padding-top: 36px;
+    margin: 0; 
+}
+
+ul {
+    margin: 0;
+    padding: 0; 
+}
+
+#main_menu {
+    background-image: url(../img/1.jfif);
+    background-size: cover;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 10px;
+    height: 65px;
+}
+
+#main_menu li {
+    display: inline-block;
+}
+
+#main_menu li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#main_menu li a:hover {
+    color: #ffffff;
+}
+
+.pic1 {
+    background-image: url(../img/1.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 175px;
+}
+
+.text1 {
+    font-size: 70px;
+    color: #000000;
+}
+
+.text2 {
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.content {
+    color: rgb(22, 30, 44);
+    width: 100%; 
+    padding: 20px; 
+    font-size: 20px;
+}
+
+.content2 {
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.pic2 {
+    width: 100%; 
+    height: 400px;
+    background-image: url(../img/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.pic3 {
+    width: 100%; 
+    height: 500px;
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.btm {
+    background-color: rgba(0, 3, 8, 0.64);
+    width: 100%;
+    height: 65px;
+}
